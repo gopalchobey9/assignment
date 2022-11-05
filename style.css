@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+img:hover{
+    letter-spacing: 1px;
+    transform: scale(1.2);
+}
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+.header .logo h2{
+    color: bisque;
+    font-size: 2rem;
+}
+.header.logo{
+    display: flex;
+}
+.header .logo img{
+    height: 5rem;
+    width: 5rem;
+
+}
+.header .nav a{
+    color: aliceblue;
+    padding: 8px;
+
+
+}.header .nav a:hover{
+    color: aqua;
+}
+.header .sear input,button{
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: 1px;
+}
+.btn{
+    color: aqua;
+    background-color: var(--bgcolor);
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding: 8px;
+}
+.btn:hover{
+transform:scale(1.2);
+transition-delay: .1ms;
+}
+.photogro{
+    background-color: bisque;
+    border: .2px solid bisque;
+    border-radius: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.photogro h2{
+    color: darkblue;
+    margin: 5px;
+}
+.pic {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 50px;
+    width: 50vw;
+    
+   
+}
+.pic .box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-image: url(https://media.istockphoto.com/id/1368264124/photo/extreme-close-up-of-thrashing-emerald-ocean-waves.jpg?b=1&s=170667a&w=0&k=20&c=qha_PaU54cu9QCu1UTlORP4-sW0MqLGERkdFKmC06lI=); */
+    /* background-size: cover;
+    background-position: center; */
+} .pic .box img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 2px;
+}
+/* }
+.pic .box #b{
+    background-image: url(https://www.bing.com/th?id=OIP.qDvAlhidTBzXiGyDfq_O0gHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2);
+
+} */
+
+.journey{
+    background-image: url(https://images.unsplash.com/photo-1522426266214-ec2d2abb9ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.journey h2{
+    color: aqua;
+    
+}
+.journey h1{
+    color: antiquewhite;
+    font-size: 3rem;
+
+}
+.journey p{
+    color: antiquewhite;
+}
+.fotter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid black;
+    background-color:black ;
+    color: white;
+    width: 100vw;
+    justify-content: space-between;
+
+
+}
+.fotter .box{ 
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    margin: 8px;
+    padding: 10px;
+
+}
+.fotter .box .graph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+
+}
+.fotter .box .con,.email{
+    line-height: 30px;
+}
+.fotter .box .foot a{
+    color: aqua;
+    border-radius: round;
+    padding: 2px;
+    font-size: 1.6rem;
+}
